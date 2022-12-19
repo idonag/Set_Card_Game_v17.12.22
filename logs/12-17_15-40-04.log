@@ -1,0 +1,11 @@
+[15:40:04.926] [INFO   ] thread main starting.
+[15:40:04.938] [SEVERE ] cannot read configuration file config.properties trying from resources.
+[15:40:04.940] [SEVERE ] configuration file was loaded from resources directory.
+[15:40:05.759] [INFO   ] thread dealer starting.
+[15:40:05.761] [INFO   ] Thread dealer starting.
+[15:40:07.084] [INFO   ] Thread 0 starting.
+[15:40:07.084] [INFO   ] Thread 1 starting.
+[15:40:07.088] [SEVERE ] updating countdown to 60000
+[15:40:07.996] [SEVERE ] exit button pressed
+[15:40:07.997] [SEVERE ] thanks for playing... it was fun!
+[15:40:07.997] [INFO   ] thread main terminated.

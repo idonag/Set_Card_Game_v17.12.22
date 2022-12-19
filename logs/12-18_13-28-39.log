@@ -1,0 +1,154 @@
+[13:28:40.044] [INFO   ] thread main starting.
+[13:28:40.079] [SEVERE ] cannot read configuration file config.properties trying from resources.
+[13:28:40.090] [SEVERE ] configuration file was loaded from resources directory.
+[13:28:43.647] [INFO   ] thread dealer starting.
+[13:28:43.695] [INFO   ] Thread dealer starting.
+[13:28:43.799] [SEVERE ] placing card 0 in slot 3
+[13:28:43.960] [SEVERE ] placing card 1 in slot 10
+[13:28:44.063] [SEVERE ] placing card 2 in slot 0
+[13:28:44.164] [SEVERE ] placing card 3 in slot 9
+[13:28:44.266] [SEVERE ] placing card 4 in slot 6
+[13:28:44.369] [SEVERE ] placing card 5 in slot 8
+[13:28:44.472] [SEVERE ] placing card 6 in slot 5
+[13:28:44.575] [SEVERE ] placing card 7 in slot 2
+[13:28:44.679] [SEVERE ] placing card 8 in slot 7
+[13:28:44.781] [SEVERE ] placing card 9 in slot 11
+[13:28:44.886] [SEVERE ] placing card 10 in slot 1
+[13:28:44.988] [SEVERE ] placing card 11 in slot 4
+[13:28:44.994] [INFO   ] Thread 0 starting.
+[13:28:44.998] [INFO   ] Thread 1 starting.
+[13:28:45.001] [INFO   ] Thread 2 starting.
+[13:28:45.002] [INFO   ] Thread 3 starting.
+[13:28:45.005] [INFO   ] Thread computer-2 starting.
+[13:28:45.006] [INFO   ] Thread computer-3 starting.
+[13:28:45.008] [SEVERE ] player 3 placing token on slot 8
+[13:28:45.009] [SEVERE ] player 4 placing token on slot 10
+[13:28:45.216] [SEVERE ] updating countdown to 9797
+[13:28:45.218] [SEVERE ] setting player 1 freeze to 0
+[13:28:45.220] [SEVERE ] setting player 2 freeze to 0
+[13:28:45.221] [SEVERE ] setting player 3 freeze to 0
+[13:28:45.223] [SEVERE ] setting player 4 freeze to 0
+[13:28:45.223] [SEVERE ] player 3 placing token on slot 7
+[13:28:45.224] [SEVERE ] player 4 placing token on slot 11
+[13:28:45.434] [SEVERE ] updating countdown to 9579
+[13:28:45.435] [SEVERE ] setting player 1 freeze to 0
+[13:28:45.436] [SEVERE ] setting player 2 freeze to 0
+[13:28:45.437] [SEVERE ] setting player 3 freeze to 0
+[13:28:45.437] [SEVERE ] setting player 4 freeze to 0
+[13:28:45.438] [SEVERE ] player 3 placing token on slot 4
+[13:28:45.439] [SEVERE ] player 4 placing token on slot 5
+[13:28:45.440] [SEVERE ] updating countdown to 9573
+[13:28:45.442] [SEVERE ] setting player 1 freeze to 0
+[13:28:45.443] [SEVERE ] setting player 2 freeze to 0
+[13:28:45.444] [SEVERE ] setting player 3 freeze to 3998
+[13:28:45.445] [SEVERE ] setting player 4 freeze to 0
+[13:28:45.647] [SEVERE ] updating countdown to 9366
+[13:28:45.649] [SEVERE ] setting player 1 freeze to 0
+[13:28:45.651] [SEVERE ] setting player 2 freeze to 0
+[13:28:45.652] [SEVERE ] setting player 3 freeze to 3790
+[13:28:45.653] [SEVERE ] setting player 4 freeze to 3996
+[13:28:45.858] [SEVERE ] updating countdown to 9155
+[13:28:45.859] [SEVERE ] setting player 1 freeze to 0
+[13:28:45.859] [SEVERE ] setting player 2 freeze to 0
+[13:28:45.860] [SEVERE ] setting player 3 freeze to 3582
+[13:28:45.860] [SEVERE ] setting player 4 freeze to 3789
+[13:28:46.065] [SEVERE ] updating countdown to 8948
+[13:28:46.067] [SEVERE ] setting player 1 freeze to 0
+[13:28:46.068] [SEVERE ] setting player 2 freeze to 0
+[13:28:46.069] [SEVERE ] setting player 3 freeze to 3373
+[13:28:46.070] [SEVERE ] setting player 4 freeze to 3579
+[13:28:46.274] [SEVERE ] updating countdown to 8739
+[13:28:46.274] [SEVERE ] setting player 1 freeze to 0
+[13:28:46.275] [SEVERE ] setting player 2 freeze to 0
+[13:28:46.276] [SEVERE ] setting player 3 freeze to 3166
+[13:28:46.276] [SEVERE ] setting player 4 freeze to 3373
+[13:28:46.467] [SEVERE ] exit button pressed
+[13:28:46.479] [SEVERE ] updating countdown to 8534
+[13:28:46.480] [SEVERE ] setting player 1 freeze to 0
+[13:28:46.481] [SEVERE ] setting player 2 freeze to 0
+[13:28:46.482] [SEVERE ] setting player 3 freeze to 2960
+[13:28:46.483] [SEVERE ] setting player 4 freeze to 3166
+[13:28:46.686] [SEVERE ] updating countdown to 8327
+[13:28:46.686] [SEVERE ] setting player 1 freeze to 0
+[13:28:46.686] [SEVERE ] setting player 2 freeze to 0
+[13:28:46.686] [SEVERE ] setting player 3 freeze to 2756
+[13:28:46.687] [SEVERE ] setting player 4 freeze to 2962
+[13:28:46.893] [SEVERE ] updating countdown to 8120
+[13:28:46.893] [SEVERE ] setting player 1 freeze to 0
+[13:28:46.895] [SEVERE ] setting player 2 freeze to 0
+[13:28:46.895] [SEVERE ] setting player 3 freeze to 2547
+[13:28:46.895] [SEVERE ] setting player 4 freeze to 2754
+[13:28:47.098] [SEVERE ] updating countdown to 7915
+[13:28:47.100] [SEVERE ] setting player 1 freeze to 0
+[13:28:47.100] [SEVERE ] setting player 2 freeze to 0
+[13:28:47.100] [SEVERE ] setting player 3 freeze to 2342
+[13:28:47.101] [SEVERE ] setting player 4 freeze to 2548
+[13:28:47.302] [SEVERE ] updating countdown to 7711
+[13:28:47.303] [SEVERE ] setting player 1 freeze to 0
+[13:28:47.303] [SEVERE ] setting player 2 freeze to 0
+[13:28:47.304] [SEVERE ] setting player 3 freeze to 2138
+[13:28:47.304] [SEVERE ] setting player 4 freeze to 2345
+[13:28:47.506] [SEVERE ] updating countdown to 7507
+[13:28:47.507] [SEVERE ] setting player 1 freeze to 0
+[13:28:47.508] [SEVERE ] setting player 2 freeze to 0
+[13:28:47.509] [SEVERE ] setting player 3 freeze to 1933
+[13:28:47.509] [SEVERE ] setting player 4 freeze to 2140
+[13:28:47.713] [SEVERE ] updating countdown to 7300
+[13:28:47.715] [SEVERE ] setting player 1 freeze to 0
+[13:28:47.716] [SEVERE ] setting player 2 freeze to 0
+[13:28:47.717] [SEVERE ] setting player 3 freeze to 1725
+[13:28:47.718] [SEVERE ] setting player 4 freeze to 1931
+[13:28:47.924] [SEVERE ] updating countdown to 7089
+[13:28:47.925] [SEVERE ] setting player 1 freeze to 0
+[13:28:47.925] [SEVERE ] setting player 2 freeze to 0
+[13:28:47.925] [SEVERE ] setting player 3 freeze to 1517
+[13:28:47.926] [SEVERE ] setting player 4 freeze to 1723
+[13:28:48.127] [SEVERE ] updating countdown to 6886
+[13:28:48.128] [SEVERE ] setting player 1 freeze to 0
+[13:28:48.129] [SEVERE ] setting player 2 freeze to 0
+[13:28:48.129] [SEVERE ] setting player 3 freeze to 1313
+[13:28:48.130] [SEVERE ] setting player 4 freeze to 1519
+[13:28:48.332] [SEVERE ] updating countdown to 6681
+[13:28:48.333] [SEVERE ] setting player 1 freeze to 0
+[13:28:48.333] [SEVERE ] setting player 2 freeze to 0
+[13:28:48.333] [SEVERE ] setting player 3 freeze to 1109
+[13:28:48.333] [SEVERE ] setting player 4 freeze to 1316
+[13:28:48.537] [SEVERE ] updating countdown to 6476
+[13:28:48.537] [SEVERE ] setting player 1 freeze to 0
+[13:28:48.538] [SEVERE ] setting player 2 freeze to 0
+[13:28:48.538] [SEVERE ] setting player 3 freeze to 0
+[13:28:48.539] [SEVERE ] setting player 4 freeze to 1111
+[13:28:48.740] [SEVERE ] updating countdown to 6273
+[13:28:48.740] [SEVERE ] setting player 1 freeze to 0
+[13:28:48.741] [SEVERE ] setting player 2 freeze to 0
+[13:28:48.741] [SEVERE ] setting player 3 freeze to 0
+[13:28:48.742] [SEVERE ] setting player 4 freeze to 0
+[13:28:48.944] [SEVERE ] updating countdown to 6069
+[13:28:48.945] [SEVERE ] setting player 1 freeze to 0
+[13:28:48.950] [SEVERE ] setting player 2 freeze to 0
+[13:28:48.950] [SEVERE ] setting player 3 freeze to 0
+[13:28:48.951] [SEVERE ] setting player 4 freeze to 0
+[13:28:48.952] [SEVERE ] removing player 3 token from slot 4
+[13:28:48.952] [INFO   ] Thread computer-3 terminated.
+[13:28:48.953] [INFO   ] Thread 3 terminated.
+[13:28:49.155] [SEVERE ] updating countdown to 5858
+[13:28:49.158] [SEVERE ] setting player 1 freeze to 0
+[13:28:49.160] [SEVERE ] setting player 2 freeze to 0
+[13:28:49.165] [SEVERE ] setting player 3 freeze to 0
+[13:28:49.170] [INFO   ] Thread computer-2 terminated.
+[13:28:49.171] [SEVERE ] setting player 4 freeze to 0
+[13:28:49.374] [SEVERE ] updating countdown to 5639
+[13:28:49.386] [SEVERE ] setting player 1 freeze to 0
+[13:28:49.387] [SEVERE ] setting player 2 freeze to 0
+[13:28:49.388] [SEVERE ] setting player 3 freeze to 0
+[13:28:49.388] [SEVERE ] setting player 4 freeze to 0
+[13:28:49.593] [SEVERE ] updating countdown to 5420
+[13:28:49.594] [SEVERE ] setting player 1 freeze to 0
+[13:28:49.596] [SEVERE ] setting player 2 freeze to 0
+[13:28:49.597] [SEVERE ] setting player 3 freeze to 0
+[13:28:49.597] [SEVERE ] setting player 4 freeze to 0
+[13:28:49.844] [SEVERE ] updating countdown to 5169
+[13:28:49.846] [SEVERE ] setting player 1 freeze to 0
+[13:28:49.847] [SEVERE ] setting player 2 freeze to 0
+[13:28:49.848] [SEVERE ] setting player 3 freeze to 0
+[13:28:49.849] [SEVERE ] setting player 4 freeze to 0
