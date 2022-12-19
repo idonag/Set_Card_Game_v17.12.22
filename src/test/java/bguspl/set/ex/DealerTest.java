@@ -4,8 +4,12 @@ import bguspl.set.Config;
 import bguspl.set.Env;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
+//import sun.jvm.hotspot.utilities.Assert;
 
+import java.util.Arrays;
+import java.util.List;
 import java.util.Properties;
+import java.util.Vector;
 
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -46,16 +50,21 @@ class DealerTest {
     }
 
     @Test
-    void run() {
-        dealer.run();
-
-// we give to the dealer a table and deck with no available set
+    void removeCardsBySlots() {
+        Vector<Integer> slots = new Vector(Arrays.asList(0,1,2));
+        dealer.removeCardsBySlots(slots);
+        assertEquals(null,table.slotToCard[0],"slot should be empty ");
+        assertEquals(null,table.slotToCard[1],"slot should be empty ");
+        assertEquals(null,table.slotToCard[2],"slot should be empty ");
     }
 
 
 
     @Test
     void placeCardsOnTable(){
-
+        dealer.placeCardsOnTable();
+        for (int i = 0; i < table.slotToCard.length;i++)
+            assertTrue(table.slotToCard[i] != null,"slot shouldn't be empty");
     }
+
 }

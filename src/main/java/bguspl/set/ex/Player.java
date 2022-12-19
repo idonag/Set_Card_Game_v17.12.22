@@ -60,6 +60,7 @@ public class Player implements Runnable {
     private int score;
     final Dealer dealer;
 
+    boolean isTested;
     /**
      * The class constructor.
      *
@@ -75,9 +76,10 @@ public class Player implements Runnable {
         this.id = id;
         this.human = human;
         playerTokens = new Vector<>();
-        playerPresses = new LinkedBlockingQueue<>();
+        playerPresses = new LinkedBlockingQueue<>(3);
         changeAfterPenalty = true;
         this.dealer = dealer;
+        isTested = true;
     }
 
     public Vector<Integer> tokenToSlots(){
@@ -94,6 +96,7 @@ public class Player implements Runnable {
 
         while (!terminate) {
             try {
+                System.out.println(id +" preform step");
                 step();
             }
             catch (InterruptedException e){
@@ -101,12 +104,16 @@ public class Player implements Runnable {
             }
 
             if(playerTokens.size() == 3 && changeAfterPenalty ) {
+                System.out.println(id+ " entered if size = 3");
                 dealer.addToPlayersQueue(this);
+                System.out.println(id+ " added himself to dealer's queue");
+                isTested = false;
                 synchronized (dealer) {
                     dealer.notifyAll();
                 }
                 try {
                     synchronized (this) {
+                        System.out.println(id+" is sleeping");
                         this.wait();
                     }
                 } catch (InterruptedException e) {
@@ -134,10 +141,12 @@ public class Player implements Runnable {
             while (!terminate) {
                 Random random = new Random();
                 int slotChosen =random.nextInt(12);
-                keyPressed(slotChosen);
                 try {
-                    synchronized (this) { wait(); }
-                } catch (InterruptedException ignored) {}
+                    if (!dealer.isPlacingCards()) {
+                        playerPresses.put(slotChosen);
+                    }
+                } catch (InterruptedException e) {
+                }
             }
             env.logger.info("Thread " + Thread.currentThread().getName() + " terminated.");
         }, "computer-" + id);
@@ -148,7 +157,6 @@ public class Player implements Runnable {
      * Called when the game should be terminated.
      */
     public void terminate() {
-        System.out.println(id+" entered terminate func");
         terminate = true;
     }
 
